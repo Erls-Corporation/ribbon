@@ -19,5 +19,5 @@ In this experiment I managed to achieve the same looks but with the following ma
 
 
 
-See how it looks [now](http://c9.io/luis_almeida/ribbon/workspace/index.html) with the new markup.
+See how it looks [now](http://luis-almeida.github.com/ribbon/) with the new markup.
 
