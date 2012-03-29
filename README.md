@@ -17,3 +17,7 @@ In this experiment I managed to achieve the same looks but with the following ma
 
 &lt;h1 class="ribbon"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/h1&gt;  
 
+
+
+See how it looks [now](http://c9.io/luis_almeida/ribbon/workspace/index.html) with the new markup.
+
