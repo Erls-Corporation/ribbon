@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Ui Parade’s CSS Ribbon on a diet</title>
+		<style>
+
+			body { 
+                background: #32373D; 
+                text-align:center;
+                padding: 100px 0;
+            }
+
+			h1.ribbon {
+				position: relative;
+				display: inline-block;
+				font-family: sans-serif;
+				font-size: 1.1em;
+				margin: 0;
+				padding: 2px 0;
+				text-align: center;
+				margin-bottom: 200px;
+				background: #d64b4b;
+				background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+				background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+				background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+				background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+				background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+				background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#d64b4b", EndColorStr="#ab2c2c");
+				-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+				-moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+				box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+			}
+			h1.ribbon:before,
+			h1.ribbon:after {
+				content: "";
+				position: absolute;
+				display: block;
+				bottom: -1em;
+				border: 1.5em solid #c23a3a;
+				z-index: -1;
+			}
+			h1.ribbon:before {
+				left: -2em;
+				border-right-width: 1.5em;
+				border-left-color: transparent;
+				-webkit-box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+				-moz-box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+				box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+			}
+			h1.ribbon:after {
+				right: -2em;
+				border-left-width: 1.5em;
+				border-right-color: transparent;
+				-webkit-box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+				-moz-box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+				box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+			}
+			h1.ribbon > strong {
+				display: inherit;
+				min-width: 100px;
+				margin: 0;
+				padding: 15px 30px;
+				color: #801111;
+				text-shadow: #d65c5c 0 1px 0;
+				border-top: 1px dashed rgba(0, 0, 0, 0.2);
+				border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+				box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.15), 
+							inset 0px -1px 1px rgba(255, 255, 255, 0.15),
+							0px 1px 1px rgba(255, 255, 255, 0.1),
+							0px -1px 1px rgba(255, 255, 255, 0.15);
+			}
+			h1.ribbon > strong:before,
+			h1.ribbon > strong:after {
+				content: "";
+				border-color: #871616 transparent transparent transparent;
+				position: absolute;
+				border-style: solid;
+				bottom: -1em;
+			}
+			h1.ribbon > strong:before {
+				left: 0;
+				border-width: 1em 0 0 1em;
+			}
+			h1.ribbon > strong:after {
+				right: 0;
+				border-width: 1em 1em 0 0;
+			}
+
+			/* Tweet Btn */
+			iframe { margin-top: 200px; }
+		</style>
+	</head>
+	<body>
+		
+		<h1 class="ribbon"><strong>Ui Parade's CSS Ribbon on a diet</strong></h1>
+        
+        <br>
+		
+		<a href="https://twitter.com/share" class="twitter-share-button" data-text="Ui Parade’s CSS Ribbon on a diet" data-via="lmgalmeida" data-related="lmgalmeida" data-count="none">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-30452498-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+	</body>
+</html>
