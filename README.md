@@ -13,7 +13,7 @@ Probably because of so many customizing options, the generated HTML is long and 
 
 
 I'm a bit "clean markup" psycho so I had to change it.
-In this experiment I managed to achieve the same looks but with the following markup:
+In this experiment I managed to achieve the same result but with the following markup:
 
 &lt;h1 class="ribbon"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/h1&gt;  
 
